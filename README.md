@@ -276,7 +276,7 @@ $(document).ready(function() {
 
 # code to min quantity per category
 
-// On single product pages
+
 add_filter( 'woocommerce_quantity_input_args', 'min_qty_input_args', 20, 2 );
 function min_qty_input_args( $args, $product ) {
 
